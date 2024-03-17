@@ -1,9 +1,10 @@
 import './App.css';
+import ScrollIndicator from './components/ScrollIndicator';
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      <ScrollIndicator url={`https://dummyjson.com/products?limit=100`} />
     </div>
   );
 }
